@@ -21,7 +21,7 @@ def create_settings_bar(root, content_font_actual, adjust_font):
         relief=[("pressed", "sunken"), ("!pressed", "flat")],
     )
 
-    # Yazı boyutu ayarı
+    # Yazı boyutu ayarı 
     font_size_var = StringVar()
     font_size_var.set(str(content_font_actual.cget("size")))
 
